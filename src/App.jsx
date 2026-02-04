@@ -1,7 +1,12 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import "./index.css";
+
 function App() {
   return (
-    <div>
-      <h1>Hello Portfolio</h1>
+    <div className="min-h-screen">
+      <Navbar />
+      <Hero />
     </div>
   );
 }
